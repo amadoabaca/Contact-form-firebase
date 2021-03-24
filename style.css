@@ -80,19 +80,8 @@ p {
   border-bottom: 3px solid #1687a7;
 }
 
-.contact-form button:hover {
-  background-color: #1687a7;
-  border-bottom: 3px solid #136c85;
-}
-
 @media all and (min-width: 1000px) {
   .contact-form {
     width: 40%;
-  }
-}
-
-@media all and (min-width: 1080px) {
-  .contact-form {
-    width: 30%;
   }
 }
