@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: inter;
+  font-family: arial;
   font-weight: normal;
   background: rgb(245, 245, 245);
 }
@@ -40,13 +40,13 @@ p {
   border-bottom: 2px solid #ccc;
   background: rgb(255, 255, 255);
   font-size: 18px;
-  border-radius: 3px;
+  border-radius: 6px;
   margin-bottom: 20px;
   width: 100%;
 }
 
 .contact-form input:focus {
-  border-bottom: 2px solid #1a883f;
+  border-bottom: 2px solid #1687a7;
 }
 
 .contact-form textarea {
@@ -56,14 +56,14 @@ p {
   border-bottom: 2px solid #ccc;
   background: rgb(255, 255, 255);
   font-size: 18px;
-  border-radius: 3px;
+  border-radius: 6px;
   width: 100%;
-  font-family: inter;
+  font-family: arial;
   font-weight: normal;
 }
 
 .contact-form textarea:focus {
-  border-bottom: 2px solid #1a883f;
+  border-bottom: 2px solid #1687a7;
 }
 
 .contact-form button {
@@ -72,17 +72,17 @@ p {
   margin-top: 25px;
   border: none;
   padding: 12px 20px;
-  background-color: #22b352;
+  background-color: #136c85;
   color: #fff;
-  border-radius: 3px;
+  border-radius: 6px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
-  border-bottom: 3px solid #1a883f;
+  border-bottom: 3px solid #1687a7;
 }
 
 .contact-form button:hover {
-  background-color: #1a883f;
-  border-bottom: 3px solid #22b352;
+  background-color: #1687a7;
+  border-bottom: 3px solid #136c85;
 }
 
 @media all and (min-width: 1000px) {
