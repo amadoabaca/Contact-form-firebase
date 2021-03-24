@@ -1,13 +1,13 @@
-// Firebase configuration
+// Configuracion del proyecto de firebase
 var firebaseConfig = {
-  apiKey: "AIzaSyCsR7-B_PtF1ZqKZ4L7Mb2zyFlAwhlrcgs",
-  authDomain: "amado-abaca.firebaseapp.com",
-  databaseURL: "https://amado-abaca.firebaseio.com",
-  projectId: "amado-abaca",
-  storageBucket: "amado-abaca.appspot.com",
-  messagingSenderId: "624636398830",
-  appId: "1:624636398830:web:c4757e3d86b45f01d4f7ff",
-  measurementId: "G-Z0B37BMJXS"
+  apiKey: "*******",
+  authDomain: "*******",
+  databaseURL: "*******",
+  projectId: "*******",
+  storageBucket: "*******",
+  messagingSenderId: "*******",
+  appId: "*******",
+  measurementId: "*******"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
