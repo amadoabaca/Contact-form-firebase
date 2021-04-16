@@ -1,4 +1,4 @@
-// Configuracion del proyecto de firebase
+// Configuracion del proyecto de firebase -----
 var firebaseConfig = {
   apiKey: "*******",
   authDomain: "*******",
@@ -9,6 +9,8 @@ var firebaseConfig = {
   appId: "*******",
   measurementId: "*******"
 };
+//------
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
@@ -56,7 +58,7 @@ function sendAnimation(){
 
 
 
-// Guarga el mensaje en firebase
+// Guarda el mensaje en firebase
 function saveContactInfo(name, email, message) {
   let newContactInfo = contactInfo.push();
   sendAnimation()
